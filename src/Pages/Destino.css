@@ -1,0 +1,41 @@
+.destinoPage {
+    background-image: url('../assets/destination/background-destination-mobile.jpg');
+    color: #fff;
+    padding: 0 2rem;
+    padding-top: 5rem;
+    box-sizing: border-box;
+    margin-top: -3.7rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+span {
+    color: grey;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+    margin-left: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    margin-bottom: 3rem;
+}
+
+.sessaoInfo {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}

@@ -1,0 +1,8 @@
+.headerComponent{
+    display: flex;
+    justify-content: space-between;
+    padding: .8rem 1rem;
+    box-sizing: border-box;
+    margin-top: -1rem;
+    color: #fff;
+}

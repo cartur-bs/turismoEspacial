@@ -1,0 +1,30 @@
+.homePage {
+    background-image: url('../assets/home/background-home-mobile.jpg');
+    color: #fff;
+    padding: 0 2rem;
+    padding-top: 5rem;
+    box-sizing: border-box;
+    margin-top: -3.9rem;
+    text-transform: uppercase;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.textoApresentacao {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+button{
+    width: 10rem;
+    height: 10rem;
+    text-align: center;
+    border-radius: 50%;
+    margin: 4rem 0 2.7rem 0;
+    border: none;
+}
+
+.btnExplorar{
+    text-decoration: none;
+    color: #120 ;
+}
