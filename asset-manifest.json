@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/turismoEspacial/static/css/main.fc431370.css",
+    "main.js": "/turismoEspacial/static/js/main.37efb787.js",
+    "static/js/787.625e18ca.chunk.js": "/turismoEspacial/static/js/787.625e18ca.chunk.js",
+    "static/media/background-home-mobile.jpg": "/turismoEspacial/static/media/background-home-mobile.13f7adecbcb3c3f170d8.jpg",
+    "static/media/background-destination-mobile.jpg": "/turismoEspacial/static/media/background-destination-mobile.e0131e27e751ead1a922.jpg",
+    "index.html": "/turismoEspacial/index.html",
+    "main.fc431370.css.map": "/turismoEspacial/static/css/main.fc431370.css.map",
+    "main.37efb787.js.map": "/turismoEspacial/static/js/main.37efb787.js.map",
+    "787.625e18ca.chunk.js.map": "/turismoEspacial/static/js/787.625e18ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc431370.css",
+    "static/js/main.37efb787.js"
+  ]
+}
