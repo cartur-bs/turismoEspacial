@@ -13,7 +13,7 @@ const Home = () => {
                     e relaxe porque lhe daremos um verdadeiro pedaço desse mundo!
                 </p>
             </div>
-           <button><Link to={'/destin'} className="btnExplorar">EXPLORAR</Link></button> 
+           <button className="btnExplorar"><Link to={'/destin'} className="btnExplorar">EXPLORAR</Link></button> 
         </div>
     )
 }

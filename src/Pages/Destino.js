@@ -6,8 +6,8 @@ const Destino = () => {
             <h2><span>01</span> Escolha seu destino</h2>
             <div>
                 <ul>
+                    <li className='marteAberto'>Marte</li>
                     <li>Lua</li>
-                    <li>Marte</li>
                     <li>Europa</li>
                     <li>Titan</li>
                 </ul>

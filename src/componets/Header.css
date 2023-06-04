@@ -1,8 +1,36 @@
-.headerComponent{
+.headerComponent {
     display: flex;
     justify-content: space-between;
     padding: .8rem 1rem;
     box-sizing: border-box;
     margin-top: -1rem;
+    color: #fff;
+}
+
+li{
+    display: none;
+}
+
+ul {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 14px;
+    align-items: end;
+}
+
+.btnMenu{
+    height: 3rem;
+    display: inline-block;
+    color: #fff;
+    border: none;
+    background-color: transparent;
+}
+
+.headerComponent:focus-within li{
+    display: inline-block;
+}
+
+.linkHeader{
+    text-decoration: none;
     color: #fff;
 }
