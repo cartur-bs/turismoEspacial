@@ -6,14 +6,17 @@ const Home = () => {
     return (
         <div className='homePage'>
             <div className="textoHome">
-                <h2>Então você deseja ir ao</h2>
-                <h1>ESPAÇO?</h1>
+                <div className="textoPrincipal">
+                    <h2>Então você deseja ir ao</h2>
+                    <h1>ESPAÇO?</h1>
+                </div>
+
                 <p className="textoApresentacao">Vamos ser sinceros, se você deseja ir ao espaço, você poderia
                     ir para mais longe e nâo só orbitar a borda. Bom, aperte o cinto
                     e relaxe porque lhe daremos um verdadeiro pedaço desse mundo!
                 </p>
             </div>
-           <button className="btnExplorar"><Link to={'/destin'} className="btnExplorar">EXPLORAR</Link></button> 
+            <button className="btnExplorar"><Link to={'/destin'} className="btnExplorar">EXPLORAR</Link></button>
         </div>
     )
 }

@@ -1,0 +1,61 @@
+.tecnologiaPage {
+    background-image: url('../assets/technology/background-technology-mobile.jpg');
+    color: #fff;
+    padding: 0 2rem;
+    padding-top: 5rem;
+    box-sizing: border-box;
+    margin-top: -3.8rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 1rem;
+}
+
+.botoesSessao {
+    margin: 1rem;
+}
+
+.mudaSessaoTech {
+    padding: .7rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    border: none;
+    margin-left: .5rem;
+    font-weight: bold;
+    background-color: grey;
+}
+
+.sessaoTechAberta {
+    background-color: #fff;
+}
+
+.fotoVeiculo,
+.fotoSpaceport,
+.fotoCapsula {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem;
+}
+
+.fotoVeiculo {
+    background-image: url('../assets/technology/image-launch-vehicle-portrait.jpg');
+}
+
+.fotoSpaceport {
+    background-image: url('../assets/technology/image-spaceport-landscape.jpg');
+}
+
+.fotoCapsula {
+    background-image: url('../assets/technology/image-space-capsule-portrait.jpg');
+}
+
+.textoDescritivo {
+    margin-top: 3rem;
+
+}
+
+.textoDiv h3 {
+    margin-top: 3rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}

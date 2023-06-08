@@ -1,0 +1,52 @@
+.timePage {
+    background-image: url('../assets/crew/background-crew-mobile.jpg');
+    color: #fff;
+    padding: 0 2rem;
+    padding-top: 5rem;
+    box-sizing: border-box;
+    margin-top: -3.9rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fotoEngenheira {
+    background-image: url('../assets/crew/image-anousheh-ansari.png');
+    height: 15rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fotoCapitao {
+    background-image: url('../assets/crew/image-douglas-hurley.png');
+    height: 15rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fotoPiloto {
+    background-image: url('../assets/crew/image-victor-glover.png');
+    height: 15rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.fotoEspecialista {
+    background-image: url('../assets/crew/image-mark-shuttleworth.png');
+    height: 15rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btnMudaTime {
+    height: .8rem;
+    width: .8rem;
+    border: none;
+    border-radius: 50%;
+    margin: 1rem 0 1.7rem .5rem;
+    background-color:grey;
+}
+
+.btnAberto{
+    background-color: #fff;
+}

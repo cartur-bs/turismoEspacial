@@ -2,9 +2,9 @@
     background-image: url('../assets/home/background-home-mobile.jpg');
     color: #fff;
     padding: 0 2rem;
-    padding-top: 5rem;
+    padding-top: 20%;
     box-sizing: border-box;
-    margin-top: -6.8rem;
+    margin-top: -3.8rem;
     text-transform: uppercase;
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,17 +12,50 @@
 
 .textoApresentacao {
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 10%;
 }
 
 
-.btnExplorar{
-        width: 10rem;
+.btnExplorar {
+    width: 10rem;
     height: 10rem;
     text-align: center;
     border-radius: 50%;
-    margin: 4rem 0;
+    margin: 10% 0 100% 0;
     border: none;
     text-decoration: none;
-    color: #120 ;
+    color: #120;
+}
+
+@media (min-width: 800px) {
+    .homePage {
+        background-image: url('../assets/home/background-home-tablet.jpg');
+    }
+
+    .btnExplorar {
+        margin-bottom: 60%;
+    }    
+}
+
+@media (min-width: 1000px) {
+    .homePage {
+        background-image: url('../assets/home/background-home-desktop.jpg');
+        display: flex;
+        justify-content: space-between;
+        padding: 10% 5% 15% 5%;
+    }
+
+    .textoPrincipal {
+        font-size: 3rem;
+    }
+
+    .textoApresentacao {
+        width: 30rem;
+        padding-bottom: 5rem;
+    }
+
+    .btnExplorar {
+        margin-bottom: 20%;
+
+    }
 }
