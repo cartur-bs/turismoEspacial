@@ -30,7 +30,11 @@ li {
     list-style: none;
 }
 
-.temaAberto{
+#imgPlaneta{
+    display: none;
+}
+
+.temaAberto {
     border-bottom: 1px solid #fff;
     padding-bottom: 5px;
 }
@@ -39,7 +43,7 @@ h1 {
     margin-bottom: 2.5rem;
 }
 
-p{
+p {
     text-align: left;
 }
 
@@ -49,4 +53,102 @@ p{
     font-size: 15px;
     padding: 3.5rem 0 7rem 0;
     border-top: 1px solid #fff;
+}
+
+
+@media (min-width: 800px) {
+
+    .destinoPage {
+        background-image: url('../assets/destination/background-destination-tablet.jpg');
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: -7rem;
+    }
+
+    #imgPlaneta{
+        display: none;
+    }
+
+
+    li {
+        cursor: pointer;
+    }
+
+    .sessaoInfo {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .infoIndividual {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .destinoPage {
+        background-image: url('../assets/destination/background-destination-desktop.jpg');
+        color: #fff;
+        padding: 0 2rem;
+        padding-top: 5rem;
+        box-sizing: border-box;
+        margin-top: -6.7rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+       #imgPlaneta{
+        display: block;
+    }
+
+    .marteAberto {
+        background-image: url('../assets/destination/image-mars.png');
+        padding: 13% 5% 0% 5%;
+        padding-top: 5rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 7rem;
+        width: 19rem;
+        height: 22rem;
+    }
+
+    .luaAberta {
+        background-image: url('../assets/destination/image-moon.png');
+        padding: 13% 5% 0% 5%;
+        padding-top: 5rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 7rem;
+        width: 19rem;
+        height: 22rem;
+    }
+
+    .europaAberta{
+        background-image: url('../assets/destination/image-europa.png');
+        padding: 13% 5% 0% 5%;
+        padding-top: 5rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 7rem;
+        width: 19rem;
+        height: 22rem;
+    }
+
+    .titanAberta{
+        background-image: url('../assets/destination/image-titan.png');
+        padding: 13% 5% 0% 5%;
+        padding-top: 5rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 7rem;
+        width: 19rem;
+        height: 22rem;
+    }
+    main {
+        width: 40%;
+        margin-bottom: 6rem;
+    }
+ 
+    p {
+        width: 60%;
+    }
 }

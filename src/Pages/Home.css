@@ -30,6 +30,7 @@
 @media (min-width: 800px) {
     .homePage {
         background-image: url('../assets/home/background-home-tablet.jpg');
+        margin-top: -7rem;
     }
 
     .btnExplorar {
@@ -42,7 +43,9 @@
         background-image: url('../assets/home/background-home-desktop.jpg');
         display: flex;
         justify-content: space-between;
-        padding: 10% 5% 15% 5%;
+        padding: 13% 5% 0% 5%;
+        margin-top: -8rem;
+        padding-bottom: 6rem;
     }
 
     .textoPrincipal {

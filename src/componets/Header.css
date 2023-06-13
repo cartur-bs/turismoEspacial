@@ -34,7 +34,7 @@ ul {
     display: inline-block;
 }
 
-.headerComponent:focus-within .menuLista {
+.menuLista2 {
     display: flex;
     text-transform: uppercase;
     font-size: 13px;
@@ -62,13 +62,18 @@ ul {
         justify-content: space-around;
         color: #fff;
         padding: 0.5rem;
-        backdrop-filter: blur(300px);
     }
 
-    ul{
+    .logoImg {
+        display: none;
+
+    }
+
+    ul {
         margin-bottom: 0;
     }
-    li{
+
+    li {
         list-style: none;
     }
 
@@ -78,7 +83,8 @@ ul {
     }
 
     .headerComponent {
-        background-color: transparent;
+        background-color: #0c0e1e;
+        width: 50%;
     }
 
     .btnMenu {
