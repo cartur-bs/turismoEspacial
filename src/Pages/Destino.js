@@ -1,5 +1,9 @@
 import { useState } from 'react';
 import './Destino.css'
+import fotoMarte from '../assets/destination/image-mars.png';
+import fotoLua from '../assets/destination/image-moon.png';
+import fotoEuropa from '../assets/destination/image-europa.png';
+import fotoTitan from '../assets/destination/image-titan.png';
 
 const Destino = () => {
 
@@ -7,9 +11,9 @@ const Destino = () => {
     const [textoPrincipal, setTextoPrincipal] = useState('Não esqueça das suas botas de caminhada. Você vai precisar delas nos montes do Olimpo, a montanha planetária mais alta no nosso sistema solar. É 2.5x o tamanho do Monte Everest.')
     const [distanciaMedia, setDistanciaMedia] = useState('225 MIL. KM');
     const [tempoMedio, setTempoMedio] = useState('9 meses');
-    const imgPlaneta = document.getElementById('imgPlaneta');
 
-    const [teste, setTeste] = useState(1);
+    const [fotoPlaneta, setFotoPlaneta] = useState(fotoMarte);
+    const [imagemAlt, setImagemAlt] = useState('Foto de Marte');
 
     const sessaoMarte = () => {
         document.getElementById('marte').classList.add('temaAberto');
@@ -17,10 +21,8 @@ const Destino = () => {
         document.getElementById('europa').classList.remove('temaAberto');
         document.getElementById('titan').classList.remove('temaAberto');
 
-        imgPlaneta.classList.add('marteAberto');
-        imgPlaneta.classList.remove('luaAberta');
-        imgPlaneta.classList.remove('europaAberta');
-        imgPlaneta.classList.remove('titanAberta');
+        setFotoPlaneta(fotoMarte);
+        setImagemAlt('Foto de Marte');
 
         setTemaDestino('Marte');
         setTextoPrincipal('Não esqueça das suas botas de caminhada. Você vai precisar delas nos montes do Olimpo, a montanha planetária mais alta no nosso sistema solar. É 2.5x o tamanho do Monte Everest.')
@@ -34,10 +36,8 @@ const Destino = () => {
         document.getElementById('europa').classList.remove('temaAberto');
         document.getElementById('titan').classList.remove('temaAberto');
 
-        imgPlaneta.classList.add('luaAberta');
-        imgPlaneta.classList.remove('marteAberto');
-        imgPlaneta.classList.remove('europaAberta');
-        imgPlaneta.classList.remove('titanAberta');
+        setFotoPlaneta(fotoLua);
+        setImagemAlt('Foto da Lua');
 
         setTemaDestino('Lua');
         setTextoPrincipal('Veja nosso planeta como nunca antes.Uma relaxante viagem para ajudar a renovar perspectivas e voltar refrescado.Enquanto estiver lá, visite os locais Luna 2 e Apollo 11 para explorar a história.')
@@ -51,10 +51,8 @@ const Destino = () => {
         document.getElementById('europa').classList.add('temaAberto');
         document.getElementById('titan').classList.remove('temaAberto');
 
-        imgPlaneta.classList.add('europaAberta');
-        imgPlaneta.classList.remove('luaAberta');
-        imgPlaneta.classList.remove('marteAberto');
-        imgPlaneta.classList.remove('titanAberta');
+        setFotoPlaneta(fotoEuropa);
+        setImagemAlt('Foto de Europa');
 
         setTemaDestino('Europa');
         setTextoPrincipal(' A menor das quatro luas galiléias orbitando Júpiter, Europa é o sonho dos amantes de inverno. Com a superfície de gelo, é perfeita para esquiar, praticar esportes  no gelo ou simplesmente relaxar na sua cabine de inverno.')
@@ -69,11 +67,8 @@ const Destino = () => {
         document.getElementById('europa').classList.remove('temaAberto');
         document.getElementById('titan').classList.add('temaAberto');
 
-        imgPlaneta.classList.add('titanAberta')
-        imgPlaneta.classList.remove('luaAberta');
-        imgPlaneta.classList.remove('marteAberto');
-        imgPlaneta.classList.remove('europaAberta');
-
+        setFotoPlaneta(fotoTitan);
+        setImagemAlt('Foto de Titan');
 
         setTemaDestino('Titan');
         setTextoPrincipal('A única lua conhecida por ter uma densa atmosfera depois da Terra, Titan é um lar longe de casa(apenas umas centenas de graus mais frio!). Como um bônus, enquanto você esquia, pode ver os Anéis de Saturno.')
@@ -84,10 +79,10 @@ const Destino = () => {
     return (
         <div className='destinoPage'>
             <div className='marteAberto' id='imgPlaneta'>
-                <img src="*" alt="" />
+                <img src={fotoPlaneta} alt={imagemAlt}/>
             </div>
             <h2><span>01</span> Escolha seu destino</h2>
-            <main>
+            <main className='mainDestino'>
                 <div>
                     <ul>
                         <li className='temaAberto' id='marte' onClick={sessaoMarte}>Marte</li>

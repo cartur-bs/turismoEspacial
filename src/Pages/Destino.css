@@ -30,7 +30,7 @@ li {
     list-style: none;
 }
 
-#imgPlaneta{
+#imgPlaneta {
     display: none;
 }
 
@@ -55,6 +55,11 @@ p {
     border-top: 1px solid #fff;
 }
 
+@media(min-width:500px) {
+    .destinoPage {
+        padding-bottom: 7rem;
+    }
+}
 
 @media (min-width: 800px) {
 
@@ -65,10 +70,10 @@ p {
         margin-top: -7rem;
     }
 
-    #imgPlaneta{
-        display: none;
+    #imgPlaneta {
+        display: inline-block;
+        width: 7rem;
     }
-
 
     li {
         cursor: pointer;
@@ -96,58 +101,18 @@ p {
         background-repeat: no-repeat;
     }
 
-       #imgPlaneta{
+    #imgPlaneta {
         display: block;
+        margin-top: 7rem;
     }
 
-    .marteAberto {
-        background-image: url('../assets/destination/image-mars.png');
-        padding: 13% 5% 0% 5%;
-        padding-top: 5rem;
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin-top: 7rem;
-        width: 19rem;
-        height: 22rem;
-    }
-
-    .luaAberta {
-        background-image: url('../assets/destination/image-moon.png');
-        padding: 13% 5% 0% 5%;
-        padding-top: 5rem;
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin-top: 7rem;
-        width: 19rem;
-        height: 22rem;
-    }
-
-    .europaAberta{
-        background-image: url('../assets/destination/image-europa.png');
-        padding: 13% 5% 0% 5%;
-        padding-top: 5rem;
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin-top: 7rem;
-        width: 19rem;
-        height: 22rem;
-    }
-
-    .titanAberta{
-        background-image: url('../assets/destination/image-titan.png');
-        padding: 13% 5% 0% 5%;
-        padding-top: 5rem;
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin-top: 7rem;
-        width: 19rem;
-        height: 22rem;
-    }
-    main {
+    .mainDestino {
         width: 40%;
         margin-bottom: 6rem;
+        display: flex;
+        flex-direction: column;
     }
- 
+
     p {
         width: 60%;
     }
