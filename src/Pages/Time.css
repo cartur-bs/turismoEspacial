@@ -4,38 +4,14 @@
     padding: 0 2rem;
     padding-top: 5rem;
     box-sizing: border-box;
-    margin-top: -3.9rem;
+    margin-top: -7rem;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.fotoEngenheira {
-    background-image: url('../assets/crew/image-anousheh-ansari.png');
-    height: 15rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.fotoCapitao {
-    background-image: url('../assets/crew/image-douglas-hurley.png');
-    height: 15rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.fotoPiloto {
-    background-image: url('../assets/crew/image-victor-glover.png');
-    height: 15rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-
-.fotoEspecialista {
-    background-image: url('../assets/crew/image-mark-shuttleworth.png');
-    height: 15rem;
-    background-size: cover;
-    background-repeat: no-repeat;
+.fotoDoIntegrante img {
+    width: 17rem;
+    height: 17rem;
 }
 
 .btnMudaTime {
@@ -44,9 +20,44 @@
     border: none;
     border-radius: 50%;
     margin: 1rem 0 1.7rem .5rem;
-    background-color:grey;
+    background-color: grey;
+    cursor: pointer;
 }
 
-.btnAberto{
+.btnMudaTime:hover{
     background-color: #fff;
+    opacity: 0.7;
+}
+
+.btnAberto {
+    background-color: #fff;
+    position: fixed;
+}
+
+@media(min-width: 1000px) {
+    .timePage {
+        background-image: url('../assets/crew/background-crew-desktop.jpg');
+    }
+
+    .timeMain {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 3.5rem 7.5rem;
+    }
+
+    .tituloSessao {
+        padding: 5rem 50rem 0 0;
+    }
+
+    .fotoDoIntegrante img {
+        width: 18rem;
+        height: 18rem;
+        margin-bottom: 6.8rem;
+    }
+
+    #textoApresentacao {
+        width: 25rem;
+        font-size: 20px;
+    }
 }
